@@ -3,6 +3,7 @@ import { Button } from "../styled/Button";
 
 const StartGame = ({ toggle }) => {
   return (
+    
     <Container>
       <div>
         <img src="/images/dices 1.png" />
@@ -18,11 +19,12 @@ const StartGame = ({ toggle }) => {
 export default StartGame;
 
 const Container = styled.div`
-  max-width: 1180px;
+  //max-width: 1180px;
   height: 100vh;
   display: flex;
   margin: 0 auto;
   align-items: center;
+  background-color: grey;
 
   .content {
     h1 {
